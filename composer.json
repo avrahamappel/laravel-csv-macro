@@ -1,0 +1,31 @@
+{
+    "name": "appel/laravel-csv-macro",
+    "description": "Adds a CSV macro to your Laravel collections.",
+    "keywords": [
+        "laravel",
+        "csv",
+        "collection",
+        "collections"
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appel\\Macros\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Appel\\Macros\\MacroServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
